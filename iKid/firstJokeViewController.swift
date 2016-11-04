@@ -39,6 +39,7 @@ class firstJokeViewController: UIViewController {
                                 self.punchline = true
             })
         } else {
+            //Comment
             UIView.transition(with: goodJoke1,
                               duration: 0.5,
                               options: UIViewAnimationOptions.transitionFlipFromLeft,
